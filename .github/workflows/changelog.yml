@@ -1,9 +1,10 @@
 name: Changelog
 
-on:
-  pull_request:
-    types: [opened, synchronize, reopened, labeled, unlabeled]
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   pull_request:
+#     types: [opened, synchronize, reopened, labeled, unlabeled]
+# 
 permissions:
   contents: read
 
